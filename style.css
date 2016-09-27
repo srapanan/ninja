@@ -1,0 +1,19 @@
+body{
+	width: 100%
+	height: 100%;
+}
+#naruto1, #naruto2, #naruto3, #naruto4, #naruto5, #naruto6, #naruto7, #naruto8 {
+	width: 500px;
+	height: 580px;
+	margin: 10px;
+	border-style: solid;
+	border-color: red;
+}
+#row1 {
+	display: inline-block;
+	vertical-align: top;
+}
+#row2 {
+	display: inline-block;
+	vertical-align: top;
+}

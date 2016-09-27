@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ninja Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'>
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('img').click(function() {
+                $(this).hide();
+            });
+        });
+        $(document).ready(function() {
+            $('button').click(function() {
+                $('img').show()
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="row1">    
+        <div id="naruto1">
+            <img src="naruto1.png">
+        </div>
+        <div id="naruto2">
+            <img src="naruto2.png">
+        </div>
+        <div id="naruto3">
+            <img src="naruto3.png">
+        </div>    
+        <div id="naruto4">
+            <img src="naruto4.png">
+        </div>
+    </div>
+    <div id="row2">
+            <div id="naruto5">
+                <img src="naruto5.png">
+            </div>
+            <div id="naruto6">
+                <img src="naruto6.png">
+            </div>
+            <div id="naruto7">
+                <img src="naruto7.png">
+            </div>
+            <div id="naruto8">
+                <img src="naruto8.png">
+            </div>
+    </div>
+    <button>RESET</button>
+</body>
+
+</html>
